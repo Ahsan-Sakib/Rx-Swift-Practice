@@ -8,8 +8,11 @@ target 'Base Application' do
   # Pods for Base Application
 
   pod 'Moya'   #For Network call
-  
+
   pod 'Reusable' #For some reuseable feature
-  
-  
+
+  #Rx implementation
+
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
 end
