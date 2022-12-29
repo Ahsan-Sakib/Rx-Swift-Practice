@@ -42,12 +42,22 @@ class ViewController: UIViewController {
             }
             .disposed(by: dispose)
 
+//        itemTableView
+//            .rx
+//            .modelSelected(ItemModel.self)
+//            .subscribe { object in
+//                let detailsViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+//                detailsViewController.imageName = object.image
+//                self.navigationController?.pushViewController(detailsViewController, animated: true)
+//            }
+//            .disposed(by: dispose)
+
         itemTableView
             .rx
-            .modelSelected(ItemModel.self)
-            .subscribe { object in
+            .itemSelected
+            .subscribe { indexPath in
                 let detailsViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-                detailsViewController.imageName = object.image
+              //  detailsViewController.imageName = items[indexPath.row].image
                 self.navigationController?.pushViewController(detailsViewController, animated: true)
             }
     }
