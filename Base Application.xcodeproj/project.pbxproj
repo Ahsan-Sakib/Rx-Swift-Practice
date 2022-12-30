@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		02F799F82DDC0705D5F22BEC /* Pods_Base_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B0271D7AA29AAD97F476B1 /* Pods_Base_Application.framework */; };
+		24C7A236295D816E00C03D80 /* SizeClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7A235295D816E00C03D80 /* SizeClassViewController.swift */; };
 		24C7B123295C3E31001810C1 /* itemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7B121295C3E31001810C1 /* itemTableViewCell.swift */; };
 		24C7B124295C3E31001810C1 /* itemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C7B122295C3E31001810C1 /* itemTableViewCell.xib */; };
 		24C7B127295C3F6A001810C1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7B126295C3F6A001810C1 /* DataModel.swift */; };
 		24C7B129295C5125001810C1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7B128295C5125001810C1 /* DetailsViewController.swift */; };
+		24F32256295EE56B0024809A /* RotationTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F32255295EE56B0024809A /* RotationTestViewController.swift */; };
 		CE2A6E5E25DCB96C00203C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A6E5D25DCB96C00203C4A /* AppDelegate.swift */; };
 		CE2A6E6225DCB96C00203C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A6E6125DCB96C00203C4A /* ViewController.swift */; };
 		CE2A6E6525DCB96C00203C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2A6E6325DCB96C00203C4A /* Main.storyboard */; };
@@ -25,10 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24C7A235295D816E00C03D80 /* SizeClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassViewController.swift; sourceTree = "<group>"; };
 		24C7B121295C3E31001810C1 /* itemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemTableViewCell.swift; sourceTree = "<group>"; };
 		24C7B122295C3E31001810C1 /* itemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemTableViewCell.xib; sourceTree = "<group>"; };
 		24C7B126295C3F6A001810C1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		24C7B128295C5125001810C1 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		24F32255295EE56B0024809A /* RotationTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationTestViewController.swift; sourceTree = "<group>"; };
 		41B0271D7AA29AAD97F476B1 /* Pods_Base_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Base_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0E4C1F533EAF6DCBDAADC2 /* Pods-Base Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base Application.debug.xcconfig"; path = "Target Support Files/Pods-Base Application/Pods-Base Application.debug.xcconfig"; sourceTree = "<group>"; };
 		B73142174766185D11118EC2 /* Pods-Base Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base Application.release.xcconfig"; path = "Target Support Files/Pods-Base Application/Pods-Base Application.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				24C7B121295C3E31001810C1 /* itemTableViewCell.swift */,
 				24C7B122295C3E31001810C1 /* itemTableViewCell.xib */,
 				24C7B128295C5125001810C1 /* DetailsViewController.swift */,
+				24C7A235295D816E00C03D80 /* SizeClassViewController.swift */,
+				24F32255295EE56B0024809A /* RotationTestViewController.swift */,
 			);
 			path = "Base Application";
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 				CE2A6E6225DCB96C00203C4A /* ViewController.swift in Sources */,
 				24C7B129295C5125001810C1 /* DetailsViewController.swift in Sources */,
 				CE2A6E8925DE086C00203C4A /* Utility.swift in Sources */,
+				24C7A236295D816E00C03D80 /* SizeClassViewController.swift in Sources */,
 				24C7B123295C3E31001810C1 /* itemTableViewCell.swift in Sources */,
+				24F32256295EE56B0024809A /* RotationTestViewController.swift in Sources */,
 				CE2A6E8025DCD49300203C4A /* String+extention.swift in Sources */,
 				24C7B127295C3F6A001810C1 /* DataModel.swift in Sources */,
 				CE2A6E8525DE061500203C4A /* Api.swift in Sources */,
