@@ -288,17 +288,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="uBm-yi-mpK">
-                                <rect key="frame" x="10" y="108" width="394" height="694"/>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="uBm-yi-mpK">
+                                <rect key="frame" x="10" y="108" width="225" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="KYO-L4-qPG"/>
+                                    <constraint firstAttribute="height" constant="125" id="UiA-fj-Xdd"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lGf-CO-cKd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="lGf-CO-cKd" firstAttribute="bottom" secondItem="uBm-yi-mpK" secondAttribute="bottom" constant="60" id="Qjr-Ht-2p4"/>
                             <constraint firstItem="uBm-yi-mpK" firstAttribute="top" secondItem="lGf-CO-cKd" secondAttribute="top" constant="60" id="cmd-Ie-Jnt"/>
                             <constraint firstItem="uBm-yi-mpK" firstAttribute="leading" secondItem="lGf-CO-cKd" secondAttribute="leading" constant="10" id="dF3-bB-Fhy"/>
-                            <constraint firstItem="lGf-CO-cKd" firstAttribute="trailing" secondItem="uBm-yi-mpK" secondAttribute="trailing" constant="10" id="fPP-UQ-dXm"/>
                         </constraints>
                     </view>
                     <connections>
@@ -307,7 +309,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K75-WJ-RME" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1496" y="877"/>
+            <point key="canvasLocation" x="1495.6521739130435" y="876.5625"/>
         </scene>
     </scenes>
     <resources>
